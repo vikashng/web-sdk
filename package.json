@@ -1,0 +1,21 @@
+{
+  "name": "kvvik-dev",
+  "version": "1.0.4",
+  "description": "A demo package",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "Vikash Kumar <kvvik2020@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.1.5",
+    "typescript": "^4.6.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
